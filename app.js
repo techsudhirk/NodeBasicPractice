@@ -17,7 +17,7 @@ var totalMemory = os.totalmem();
 var freeMemory = os.freemem();
 console.log(`total memory is ${totalMemory} and free memory is ${freeMemory}`)
 var pathObj = path.parse(__filename);
-console.log(pathObj)
+console.log('path::',path.parse(__filename))
 const logger = require('./logger.js')
-logger();
+new logger();
 logger.log('abcd');
