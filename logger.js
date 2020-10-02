@@ -16,4 +16,4 @@ function a(){
 //module.exports = a;
 //module.exports.log = log;
 //Raise an event
-module.exports = Logger;
+module.exports = Logger; // exporting Logger
